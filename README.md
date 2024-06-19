@@ -6,7 +6,6 @@ that the assembly code is error-free.
 
 To run:
 ```
-g++ -Wall -o assembler assembler.cpp -static
 ./assembler <filepath>
 ```
 Replace filepath with the path to the intended file, including the .asm extension. For a file
