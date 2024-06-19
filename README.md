@@ -8,3 +8,4 @@ To run:
 ```
 ./assembler <filepath>
 ```
+Replace filepath with the path to the intended file, including the .asm extension.
