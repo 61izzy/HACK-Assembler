@@ -11,3 +11,5 @@ To run:
 Replace filepath with the path to the intended file, including the .asm extension. For a file
 `<folderpath>/<filename>.asm`, outputs the binary code into a file with the name format
 `<folderpath>/<filename>.hack`.
+
+There are a few example assembly programs included along with their translated binary programs.
