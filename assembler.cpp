@@ -1,12 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/*
-Proposed architecture:
-- Parser
-- Code (translate stuff to binary)
-*/
-
 vector<string> lines;
 unordered_map<string, short> symbol_table;
 unordered_map<string, string> comp_table, dest_table, jump_table;
