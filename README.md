@@ -8,4 +8,6 @@ To run:
 ```
 ./assembler <filepath>
 ```
-Replace filepath with the path to the intended file, including the .asm extension.
+Replace filepath with the path to the intended file, including the .asm extension. For a file
+`<folderpath>/<filename>.asm`, outputs the binary code into a file with the name format
+`<folderpath>/<filename>.hack`.
