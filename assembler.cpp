@@ -91,6 +91,9 @@ int main(int argc, char *argv[]) {
         else lines.push_back(s);
     }
 
+    // file has been processed
+    input.close();
+
     // keep track of variable symbols
     short idx = 15;
     // parse the instructions and write it into the output file
