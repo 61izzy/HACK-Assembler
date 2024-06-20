@@ -65,11 +65,10 @@ int main(int argc, char *argv[]) {
     // preprocessing file name and folder
     string filepath = argv[1];
     int filename_start = filepath.rfind("/") + 1, filename_end = filepath.rfind(".");
-    string filename = filepath.substr(filename_start, filename_end - filename_start), filefolder = filepath.substr(0, filename_start - 1);
+    string filename = filepath.substr(filename_start, filename_end - filename_start),
+           filefolder = filepath.substr(0, filename_start - 1);
     
     // opening input and output files
-    // freopen(argv[1], "r", stdin);
-    // freopen((filefolder + "/" + filename + ".hack").c_str(), "w", stdout);
     ifstream input(argv[1]);
     ofstream output(filefolder + "/" + filename + ".hack");
 
