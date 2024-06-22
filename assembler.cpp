@@ -94,7 +94,8 @@ int main(int argc, char *argv[]) {
     // file has been processed
     input.close();
 
-    // keep track of variable symbols
+    // in accordance with the Hack language specifications, variables are assigned addresses starting at 16
+    // for each new variable, we will increment the counter before assigning it
     short idx = 15;
     // parse the instructions and write it into the output file
     for (auto line : lines) {
